@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OpenProject</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Notification</string>
+    <string name="action_rateus">Rate Us</string>
+    <string name="action_invite">Invite Friends</string>
+    <string name="title">Projects</string>
+    <string name="save">Save</string>
+    <string name="task">Task</string>
+    <string name="description">Description</string>
+    <string name="cancel">Cancel</string>
+    <string name="rename">Rename</string>
+    <string name="email">Email</string>
+    <string name="delete">Delete</string>
+     <string name="todo">Set as To-Do</string>
+      <string name="doing">Set as Doing</string>
+      <string name="done">Set as Done</string>
+    
+
+</resources>

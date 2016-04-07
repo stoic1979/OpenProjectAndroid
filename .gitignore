@@ -1,0 +1,20 @@
+# generated files
+bin/
+gen/
+
+# class files
+*.class
+
+# apk files
+*.apk
+*.ap_
+
+# VM files
+*.dex
+
+# config files
+local.properties
+
+# eclipse files
+.classpath
+.project

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/laysave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layadd"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/btnlistrename"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight=".5"
+            android:background="@drawable/btn_shape"
+            android:text="@string/rename"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btntodo"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight=".5"
+            android:background="@drawable/btn_shape"
+            android:text="@string/doing"
+            android:textColor="#fff" />
+        <Button
+            android:id="@+id/btndoing"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight=".5"
+            android:background="@drawable/btn_shape"
+            android:text="@string/done"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnlistdelete"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight=".5"
+            android:background="@color/red"
+            android:text="@string/delete"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnlistnothing"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight=".5"
+            android:background="@color/grey"
+            android:text="@string/cancel"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/mainappcolor" >
+
+        <ImageView
+            android:id="@+id/imglogo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/txtprojects"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textColor="#FF000000"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <!--  <ImageView
+            android:id="@+id/imgsettings"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:padding="5dp"
+            android:src="@drawable/settings" >
+        </ImageView> 
+         -->
+        <ImageView
+            android:id="@+id/imgadd"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:padding="5dp"
+            android:src="@drawable/add" >
+        </ImageView>
+    </android.support.v7.widget.Toolbar>
+
+    <ListView
+        android:id="@+id/listproject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar" />
+
+    <ImageView
+        android:id="@+id/addproject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/addproject" />
+
+    <ImageView
+        android:id="@+id/imgaddtask"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/add_white" >
+    </ImageView>
+    <!-- ++++++++++++++++++revmob begin++++++++++++++++++ -->
+
+    <LinearLayout
+        android:id="@+id/banner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+    </LinearLayout>
+    <!-- ++++++++++++++++++revmob end++++++ -->
+    
+
+</RelativeLayout>

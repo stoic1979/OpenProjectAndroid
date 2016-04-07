@@ -1,0 +1,7 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Add more states if you like; like the state_pressed etc -->
+    <item android:state_selected="true" android:color="#585858" android:drawable="@drawable/tab_bar_background"/>
+     <item android:state_selected="false" android:color="#585858"/>
+	
+</selector>
